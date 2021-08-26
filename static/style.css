@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Allison', cursive;
+}
+#navbar{
+    background-color: red;
+    padding: 13px 30px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+#navbar{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    color:black;
+}
+#introsection{
+    background: center/cover no-repeat url("../static/bg.jpg");
+    height: 300px;
+    background-color: red;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 10%;
+}
+
+#sponsersection{
+    height: 300px;
+    background-color: rgb(143, 32, 65);
+
+}
+#sponsersection h2{
+    text-align: center;
+    padding-top: 23px;
+}
+section#mission{
+    height: 300px;
+    background-color: white;
+}
+section#mission h2{
+ 
+    text-align: center;
+    padding-top: 12px;
+}
+#introsection div.small{
+    font-size: 52px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    margin: 23px 22px;
+    height: 209px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+
+.spImage{
+    height: 80px;
+    margin: 20px;
+}
+
+#footer{
+    height: 100px;
+}

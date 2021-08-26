@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    scripts(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+block content
+  
+    section#introsection
+       div  Welcome to Pratik's Dance Academy
+       div.small  Eat Sleep Dance Repeat
+    section#mission
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    
+    section#sponsersection
+        h2 Our Sponsers
+        div#sponsors 
+            img(src= "/static/img1.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img2.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img3.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img4.png", alt= "Sponsor Image", class= "spImage")
